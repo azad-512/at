@@ -1,0 +1,60 @@
+<html>
+    <title>
+        classes, Slectors
+    </title>
+    <style>
+        p{
+            /* background-color: aqua; */
+        }
+        #css{
+            font-family: Arial, Helvetica, sans-serif; font-size: xx-large; background-color: yellow;
+        }
+        .red{
+            background-color: brown; width: 50%;
+        }
+        .bold{
+            color: indigo; font-size: xx-large;
+        }
+        *{
+            background-color:lightslategray; width: 80%;
+        }
+        input[type="number"]{
+            color: greenyellow; border-width: 30%; font-size: 30px;
+        }
+        input[type="password"]{
+            color:orange; border-width: 30%; font-size: 30px;
+        }
+        input[type="submit"]{
+            background-color: gray; font-size: 30px; border-width: 10%; color: blueviolet;
+        }
+        span{
+            color: green; font: italic; text-underline-position: below;
+        }
+        .blog{
+            /* background-color: aqua; */
+            font-style: italic;
+            font-weight: 600;
+        }
+    </style>
+    <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit expedita repellat unde, labore eveniet
+     eum maxime provident ducimus libero porro illo sint voluptate. Sapiente illum asperiores iure repudiandae amet.</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores beatae quis aliquam, dolores nobis voluptatibus 
+    sit ut enim nisi, ratione atque optio autem, iste laboriosam ipsum. Libero eveniet odit similique?</p>
+    <p id="css">Practice in CSS</p>
+    <p class="bold"><b>my prgogress is very low</b></p>
+    <p class="red">what will happened in my life</p>
+    <p class="red"><span><i>Habijabi</i></span> ghorar dim life. kissu hbe na</p><br>
+    <form action="">
+        Your number: <input type="number" placeholder="Your number"><br><br>
+        your password:<input type="password" placeholder="Password"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <div class="blog">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam nostrum laborum velit id amet animi. Corporis ipsum neque animi. 
+            Repellat unde quisquam libero aliquid, magni fuga quam perspiciatis saepe!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur repellendus nam quasi eveniet commodi iure blanditiis modi. 
+                Culpa minus tempore mollitia cupiditate enim laborum eos sit ipsa praesentium. Esse, temporibus!</p>
+    </div>
+    <body>
+</h<>
